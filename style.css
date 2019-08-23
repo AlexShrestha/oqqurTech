@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.box1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* backgroud Video */
+.box1 video{
+    position: absolute;
+    top:0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+/* video content */
+.box1 .box1Con{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    background: rgba(0,0,0,.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* video content heading */
+.box1 h1{
+    font-size: 30px;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+}
+
+.box1 p{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* header mainLogo */
+.box1 .box1Con img{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 150px;
+}
+
+}
+
+.box1 email p{
+    color: #666;
+}
+.box1 .email{
+    border: #fff 1px solid;
+    padding:10px;
+    width: 250px;
+    border-radius: 5px; 
+    background: #fff;
+    color: #222;
+    font-size: 18px;
+}
+
+/* email input */
+.box1 input[type=email]:focus{
+    border: #fff 1px solid;
+}
+
+/* subscribe button */
+.box1 .button{
+    
+    background: #eb2f06;
+    color: #fff;
+    padding: 13px;
+    font-size: 18px;
+    border: 1px solid #eb2f06;
+    border-radius: 8px;
+}
+/* 
+.box1 .button:hover{
+    background: #ecf0f1;
+    color: #444;
+    padding: 11px;
+    transition: .4s;
+} */
+
+/* stream Button */
+.box1 a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.box1 .buttonStream{
+    padding: 12px;
+    background: #2ecc71;
+    border:#2ecc71 2px solid;
+}
+/* 
+.box1 .buttonStream:hover{
+    background: #f9ca24;
+    color: #222;
+    padding: 12px;
+    transition: .4s;
+    border: #f9ca24 1px solid
+} */
+
+/* some Media Queries */
+/* width 990px */
+@media only screen and (min-width:1000px){
+    .box1 h1{
+        font-size: 50px;
+        /* background: rgba(0,0,0,.1); */
+        padding: 10px;
+    }
+    
+    /* .box1 h1:hover{
+        background: rgba(0,0,0,.2);
+        transition: .3s;
+    } */
+}
+@media only screen and (max-width: 768px){
+    .box1 .box1Con h1{
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 550px){
+    .box1 .box1Con h1{
+        font-size: 30px;
+    }
+
+    .box1 .button{
+            margin-top: 10px;
+    }
+
+    .box2 .imgSchool{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .box1 .buttonStream{
+        margin-top: 10px;
+    }
+    .box2 img{
+        width: 300px;
+    }
+    .box2 .contact{
+        margin-top: 50px; 
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:990px){
+    .box2 .imgSchool{
+        width: 35%;
+    }
+}
+
+/* header 2 // box2  */
+/* mailChimp */
+
+.box2{
+    background: #222;
+    text-align: center;
+    padding: 50px;
+    font-size: 20px 
+}
+
+.box2 .contact{
+    text-align: right;
+    color: #fff
+}
+
+.box2 h2{
+    font-size: 20px;
+}
+
+.box2 .row a{
+    color: #fff; 
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* footer and Copyright stamp */
+footer{
+    text-align: center;
+    color:#fff;
+    background: #111;
+    padding: 8px 5px 1px 5px;
+    font-size: 15px;
+}
